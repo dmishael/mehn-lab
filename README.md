@@ -82,4 +82,5 @@ Your project should have:
 * The ability to update (U) a record
 * The ability to delete (D) a record
 
-    ![](https://gph.is/1LjlEFE)
+
+![](https://gph.is/1LjlEFE)
