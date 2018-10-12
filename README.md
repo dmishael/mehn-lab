@@ -26,7 +26,7 @@ Your app should have full CRUD functionality for at least one model. Additionall
 Add [Validation](http://mongoosejs.com/docs/validation.html) to the properties on your model.
 
 ### Bonus II
-Add a second model to your application, which is embedded under the first model. Read the documentation on [Subdocuments](http://mongoosejs.com/docs/subdocs.html).
+Add a second model to your application. This can be an embedded or a reference model. Read the documentation on [Subdocuments](http://mongoosejs.com/docs/subdocs.html) and [References](https://mongoosejs.com/docs/populate.html).
 
 ### Bonus III
 Deploy your app to [ Heroku ](https://www.heroku.com/home).
