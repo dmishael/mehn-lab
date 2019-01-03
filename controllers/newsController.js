@@ -7,7 +7,10 @@ const newsController = {
             console.log(newslinks)
             res.send(newslinks)
         })
-    }
+    },
+    //     new: (req, res) => {
+
+    //     },
 }
 
 module.exports = newsController
