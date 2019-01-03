@@ -5,7 +5,7 @@ const newsController = {
     index: (req, res) => {
         Newslink.find({}).then(newslinks => {
             console.log(newslinks)
-            res.send(newslinks)
+            res.render("index", { newslinks: newslinks })
         })
     },
     //     new: (req, res) => {
