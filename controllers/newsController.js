@@ -1,4 +1,4 @@
-const Newslink = require('../models/newslink.js')
+
 
 const newsController = {
     index: (req, res) => {
