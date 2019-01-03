@@ -1,9 +1,11 @@
 
 
 const newsController = {
+    // console.log('path "/" accessed')
     index: (req, res) => {
         Newslink.find({}).then(newslinks => {
-            res.render('newslink/index', { newslink: newslink })
+            console.log(newslinks)
+            res.render('/', { newslink: newslink })
         })
     }
 }
