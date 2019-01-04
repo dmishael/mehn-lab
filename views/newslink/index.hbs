@@ -8,10 +8,10 @@
                     {{ title }}
                 </a>
             </div>
+            <div class="url">{{urlLink}}</div>
             <div class="card-action">
-                {{!-- <a href="/user/{{ author.id }}" class="">{{ author.local.email }}</a> --}}
-                <span class="text">{{ description }} Comments</span>
-                <span class="link_date">{{ createdAt }}</span>
+                <div class="text">{{ description }}</div>
+                <div class="link_date">{{ createdAt }}</div>
             </div>
         </div>
         {{/each}}
