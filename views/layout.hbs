@@ -16,24 +16,6 @@
 
 <body>
 
-    {{#if newslinks}}
-    <ul class="newslinks">
-        {{#each newslinks}}
-        <div class="card">
-            <div class="card-content">
-                <a class="card-title" href="/newslink/{{id}}">
-                    {{ title }}
-                </a>
-            </div>
-            <div class="card-action">
-                {{!-- <a href="/user/{{ author.id }}" class="">{{ author.local.email }}</a> --}}
-                <span class="text">{{ description }} Comments</span>
-                <span class="link_date">{{ createdAt }}</span>
-            </div>
-        </div>
-        {{/each}}
-    </ul>
-    {{/if}}
     {{{body}}}
 </body>
 
