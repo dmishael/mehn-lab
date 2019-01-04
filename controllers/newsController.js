@@ -10,6 +10,15 @@ const newsController = {
             console.log(error)
         })
     },
+    new: (req, res) => {
+        console.log('hello')
+    },
+    show: (req, res) => {
+        console.log('why')
+    },
+    create: (req, res) => {
+        console.log('yes')
+    }
 }
 
 module.exports = newsController
