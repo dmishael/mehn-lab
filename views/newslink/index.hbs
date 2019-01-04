@@ -1,4 +1,36 @@
 <main>
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="title-field col s12">
+                    <input placeholder="Enter Title" id="title" type="text" class="validate">
+                    <label for="Title">Title</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="Url-field col s12">
+                    <input placeholder="Enter News Link" id="title" type="text" class="validate">
+                    <label for="newsLink">Title</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="description" type="text" class="validate">
+                    <label for="description">Enter Short Description</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
     {{#if newslinks}}
     <ul class="newslinks">
         {{#each newslinks}}
