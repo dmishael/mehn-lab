@@ -1,0 +1,24 @@
+{
+  "name": "mehn-lab",
+  "version": "1.0.0",
+  "description": "## Prompt",
+  "main": "server.js",
+  "dependencies": {
+    "mongoose": "^5.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmishael/mehn-lab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmishael/mehn-lab/issues"
+  },
+  "homepage": "https://github.com/dmishael/mehn-lab#readme"
+}
