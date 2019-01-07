@@ -4,6 +4,8 @@
   "description": "## Prompt",
   "main": "server.js",
   "dependencies": {
+    "dotenv": "^6.2.0",
+    "hbs": "^4.0.1",
     "mongoose": "^5.4.2"
   },
   "devDependencies": {},
